@@ -1,3 +1,4 @@
 FROM scratch
 
-CMD pip install jsonrpclib-pelix 
+# copy local files
+COPY root/ /
