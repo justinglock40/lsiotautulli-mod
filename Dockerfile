@@ -1,6 +1,3 @@
 FROM scratch
 
-RUN \
-
-	echo "**** install packages ****" && \
-	pip install jsonrpclib-pelix 
+CMD pip install jsonrpclib-pelix 
