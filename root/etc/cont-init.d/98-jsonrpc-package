@@ -1,3 +1,5 @@
 #!/usr/bin/with-contenv bash
 
-apk add py-pip && pip install jsonrpclib-pelix psutil
+apk add py-pip3 && pip3 install jsonrpclib-pelix psutil PlexAPI 
+apk add docker-cli
+apk add --upgrade py3-psutil
